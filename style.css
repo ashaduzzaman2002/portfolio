@@ -1,0 +1,329 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+.top-container{
+    background-color: #E4F9F5;
+    /* height: 100vh; */
+    position: relative;
+    padding-top: 165px;
+}
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+    color: #66BFBF;
+    display: inline-block;
+    height: 2.5rem;
+}
+.middle-container h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 36px;
+}
+.top-container h2{
+    font-weight: normal;
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    font-size: 1.5rem;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+a{
+    color: #11999E;
+    text-decoration: none;
+}
+
+.cloud-1{
+    position: absolute;
+    top: 11%;
+    right: 29%;
+
+}
+.cloud-2{
+    position: absolute;
+    bottom: 49%;
+    left: 26%;
+    
+}
+.mountain-img{
+    margin-top: 9.6%;
+    margin-bottom: -4px;
+    padding-bottom: 0;
+}
+
+.profile img{
+    width: 31%;
+}
+.computer{
+    border-radius: 50%;
+    width: 18%;
+    margin-right: 30px;
+    float: left;
+}
+.skill-row{
+    width: 50%;
+    margin:80px auto;
+    text-align: left;
+}
+.skill-row h3{
+    line-height: 2;
+    text-align: left;
+}
+.skill-row p{
+    line-height: 2;
+    text-align: justify;
+}
+
+.photography{
+    float: right;
+    width: 18%;
+    margin-left: 30px;
+    border-radius: 50%;
+    /* border: 1px solid #40514E;
+    padding: 0; */
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 10px;
+    border-color: #EAF6F6;
+    width: 5%;
+    margin: 70px auto 0;
+}
+.middle-container{
+    margin: 90px 0;
+}
+.profile{
+    width: 30%;
+    margin: auto;
+}
+.contact-me{
+    width: 40%;
+    margin: auto;
+}
+.btn{
+    color: white;
+    background-color: #11999E;
+    margin-top: 60px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn:hover{
+    background-color: #0b7d81;
+}
+.p{
+    margin: 30px 0 60px;
+}
+.bottom-container{
+    background-color: #66BFBF;
+    height: 150px;
+    padding: 40px;
+}
+.bottom-container p{
+    font-family: 'Montserrat', sans-serif;
+    color: #EAF6F6;
+    margin-top: 30px;
+    font-size: 0.75rem;
+}
+.footer-link{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 20px;
+}
+.footer-link:hover{
+    color: #EAF6F6;
+}
+span{
+    color: red;
+}
+@media screen and (min-width: 898px) and (max-width: 1377px) {
+    .profile{
+        width: 50%;
+    }
+    .skill-row{
+        width: 76%;
+    }
+    .contact-me{
+        width: 60%;
+    }
+  }
+  @media screen and (min-width: 725px) and (max-width: 898px) {
+    .profile{
+        width: 60%;
+    }
+    .skill-row{
+        width: 80%;
+        margin: 60px auto;
+    }
+    .middle-container p{
+        line-height: 1.5;
+        font-size: 15px;
+    }
+    
+    .contact-me{
+        width: 60%;
+    }
+    .mountain-img{
+        width: 80%;
+        margin-top: 80px;
+    }
+    h1{
+        font-size: 3.5rem;
+    }
+    .top-container{
+        padding-top: 80px;
+    }
+    .cloud-1{
+        right: 8%;
+        top: 5%;
+    }
+    .cloud-2{
+        bottom: 43%;
+        left: 8%;
+    }
+    .profile img{
+        width: 26%;
+    }
+    hr{
+        border-width: 7px;
+        margin-bottom: 20px;
+    }
+    .top-container h2{
+        font-size: 1rem;
+    }
+    .middle-container h2{
+        margin-top: 40px;
+        margin-bottom: 35px;
+        font-size: 29px;
+    }
+    .computer{
+        width: 20%;
+        margin-top: 30px;
+    }
+    .photography{
+        width: 20%;
+        margin-top: 20px;
+    }
+    h3{
+        padding-top: 40px;
+    }
+    .btn{
+        margin-top: 45px;
+        padding: 9px 11px;
+        font-size: 11px;
+    }
+  }
+  @media screen and (min-width: 100px) and (max-width: 725px) {
+    .profile{
+        width: 70%;
+    }
+    .skill-row{
+        width: 85%;
+        margin: 60px auto;
+        text-align: center;
+    }
+    .skill-row h3{
+        font-size: 18px;
+    }
+    .middle-container p{
+        line-height: 1.5;
+        font-size: 13px;
+    }
+    
+    .contact-me{
+        width: 80%;
+    }
+    .mountain-img{
+        width: 100%;
+        margin-top: 100px;
+        position: absolute;
+        bottom: 4px;
+        left: 0;
+    }
+    h1{
+        font-size: 3.5rem;
+    }
+    .top-container{
+        padding-top: 100px;
+    }
+    .cloud-1{
+        right: 8%;
+        top: 14%;
+        width: 35%;
+    }
+    .cloud-2{
+        bottom: 41%;
+        left: 5%;
+        width: 36%;
+    }
+    .profile img{
+        width: 37%;
+    }
+    hr{
+        border-width: 6px;
+        width: 10%;
+        padding-bottom: 30px;
+    }
+    .top-container h2{
+        font-size: 1rem;
+    }
+    .middle-container h2{
+        margin-top: 40px;
+        margin-bottom: 35px;
+        font-size: 24px;
+    }
+    .computer{
+        width: 35%;
+        float: none;
+        margin-right: 0;
+    }
+    .photography{
+        width: 35%;
+        margin-left: 0;
+        float: none;
+    }
+    h3{
+        padding-top: 28px;
+    }
+    .btn{
+        margin-top: 45px;
+        padding: 9px 11px;
+        font-size: 11px;
+    }
+    .middle-container{
+        margin: 65px 0;
+    }
+    .top-container{
+        height: 100vh;
+    }
+    .name{
+        position: absolute;
+        top: 30%;
+        left: 17%;
+    }
+    .bottom-container{
+        height: 130px;
+        padding: 23px;
+    }
+    .bottom-container p{
+        font-family: 'Montserrat', sans-serif;
+        color: #EAF6F6;
+        margin-top: 20px;
+        font-size: 0.7rem;
+    }
+    .footer-link{
+        font-family: 'Montserrat', sans-serif;
+        padding: 0 10px;
+    }
+
+  }
